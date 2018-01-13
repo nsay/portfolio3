@@ -312,30 +312,11 @@ footer {
     }
 }
 
-.social-project{
-    color: $text;
-    font-size: 1.95rem;
-
-    a {
-        display: block;
-        color: $text;
-    }
-    &:hover {
-            transition: all 0.3s;
-            color: $blue-color;
-    }
-}
-
 .card-body{
     padding-bottom: 0;
 }
-.card-footer{
-    padding: 0;
-    background-color: white;
-    border-top: 0;
-}
 
-.btn-rounded-blue {
+.btn-rounded-blue, .project-demo {
     display: inline-block;
     color: #3498db;
     padding: 11px 22px;
@@ -763,13 +744,38 @@ footer {
     height: 250px;
 }
 
-.project-icons{
-    color: $base-color;
+.project-footer{
+    display: flex;
+    justify-content: space-around;
     
-        &:hover {
+}
+
+.card-text:last-child {
+    margin-bottom: 5px;
+}
+
+.project-demo{
+    width: 90px;
+    height: 30px;
+    border-radius: 0;
+    padding: 0;
+}
+
+.project-icons{
+    color: $text;
+
+    a {
+        display: block;
+        color: $text;
+    }
+    &:hover {
             transition: all 0.3s;
             color: $blue-color;
-        }
+    }
+}
+
+.tech-icons{
+    font-size: 2em;
 }
 
 .card-img-top{
