@@ -171,6 +171,7 @@ footer.footer{
 
 .section-body .container .experience-date, .section-body .container .education-date{
     float: right;
+    color: gray;
 }
 
 .section-body .container .experience-job, .section-body .container .education-job{
