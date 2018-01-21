@@ -169,6 +169,11 @@ footer.footer{
 
 /** ABOUT **/
 
+.section-body .container .about-body{
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
 .section-body .container .experience-date, .section-body .container .education-date{
     float: right;
     color: gray;
