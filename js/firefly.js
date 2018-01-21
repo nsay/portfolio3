@@ -106,5 +106,5 @@ function sketch(num, sz, color, h, w) {
 };
 
 window.onload = function () {
-    firefly("firefly", 1000, "tiny", "#ffffff");
+    firefly("firefly", 1000, "tiny", "#00ffff");
 };
