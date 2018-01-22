@@ -201,3 +201,13 @@ section{
         float: none;
     }
 }
+
+@media screen and (max-width: 455px){
+    .hero .hero-body .title{
+        font-size: 3em;
+    }
+
+    .hero .hero-body .subtitle{
+        font-size: 2rem;
+    }
+}
