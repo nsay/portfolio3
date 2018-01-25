@@ -42,7 +42,7 @@
         <section class="section-body">
             <div class="container is-widescreen box">
                 <h1 class="title has-text-centered">Contact</h1>
-                <form action="https://formspree.io/narithsay@gmail.com" method="POST" enctype="text/plain">
+                <form action="https://formspree.io/narithsay@gmail.com" method="POST">
                     <div class="field">
                         <label class="label">Name</label>
                         <div class="control">
@@ -73,6 +73,15 @@
                             <button class="button is-link" type="submit">Submit</button>
                         </div>
                     </div>
+                </form>
+                <form method="POST" action="https://formspree.io/narithsay@gmail.com">
+                    <label class="label">Message</label>
+                    <input class="input" type="text" name="name" placeholder="Your name" required>
+                    <label class="label">Message</label>
+                    <input class="input" type="email" name="_replyto" placeholder="Your email" required>
+                    <label class="label">Message</label>
+                    <textarea class="textarea" name="message" placeholder="Your message" required></textarea>
+                    <button class="button is-link" type="submit">Send</button>
                 </form>
                 <p class="has-text-centered" style="margin-top: 30px;">
                     <span class="icon">
