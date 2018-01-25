@@ -127,34 +127,54 @@ section{
     margin-bottom: 8px;
 }
 
-.section-body .container .card-content .tags{
+.section-body .container .card-content .tags, .section-body .container .tags{
     display: flex;
     justify-content: center;
     margin-bottom: 2px;
 }
 
-.section-body .container .card-content .tags .tag{
+.section-body .container .card-content .tags .tag, .section-body .container .tags .tag{
     color: #fff;
 }
 
-.section-body .container .card-content .tags .tag-html{
+.tag.tag-html{
     background-color: #e34f26;
 }
 
-.section-body .container .card-content .tags .tag-css{
+.tag.tag-css{
     background-color: #008FD8;
 }
 
-.section-body .container .card-content .tags .tag-js{
+.tag.tag-js{
     background-color: #F0E03F;
 }
 
-.section-body .container .card-content .tags .tag-bootstrap{
+.tag.tag-sass{
+    background-color: #DE4C98;
+}
+
+.tag.tag-jquery{
+    background-color: #0065B0;
+}
+
+.tag.tag-bootstrap{
     background-color: #5D317D;
 }
 
-.section-body .container .card-content .tags .tag-sass{
-    background-color: #DE4C98;
+.tag.tag-foundation{
+    background-color: #00aaca;
+}
+
+.tag.tag-java{
+    background-color: #FC0002;
+}
+
+.tag.tag-mysql{
+    background-color: #FF9D00;
+}
+
+.tag.tag-git{
+    background-color: #FF270C;
 }
 
 /** ABOUT **/
@@ -163,6 +183,10 @@ section{
     font-size: 0.9em;
     margin-top: 5px;
 }
+.section-body .container .tags{
+    margin-top: 16px;
+    margin-bottom: 0;
+} 
 
 .section-body .container .experience-date, .section-body .container .education-date{
     float: right;
