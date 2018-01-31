@@ -56,13 +56,14 @@ section{
 }
 
 .navbar-top .navbar-item:hover{
-    color: #fff;    
+    color: #84c9f7;   
+    transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1); 
     background-color: transparent;
     text-decoration: none;
 }
 
 .navbar-top .icon-active{
-    color: #fff;    
+    color: #84c9f7;    
 }
 
 /** HOME BODY **/
@@ -90,11 +91,21 @@ section{
     background-color: transparent;
     border-color: gray;
     color: gray;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+            to right,
+            #84c9f7,
+            #84c9f7 50%,
+            grey 50%);
+	    background-size: 200% 100%;
+	    background-position: 100%;
 }
 
 .hero .hero-body .button.is-primary:hover{
-    border-color: #fff;
-    color: #fff;
+    border-color: #84c9f7;
+    transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
 }
 
 /** BODY **/
