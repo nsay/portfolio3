@@ -73,7 +73,7 @@ section{
 
 .hero .hero-body .title{
     color: #fff;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 4em;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -82,7 +82,7 @@ section{
 .hero .hero-body .subtitle{
     color: #fff;
     font-size: 2.5rem;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.25;
     margin-bottom: 15px;
 }
@@ -91,18 +91,10 @@ section{
     background-color: transparent;
     border-color: gray;
     color: gray;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(
-            to right,
-            #84c9f7,
-            #84c9f7 50%,
-            grey 50%);
-	    background-size: 200% 100%;
-	    background-position: 100%;
 }
 
 .hero .hero-body .button.is-primary:hover{
+    color: #84c9f7;
     border-color: #84c9f7;
     transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
     background-position: 0%;
