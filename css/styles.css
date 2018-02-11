@@ -130,55 +130,16 @@ section{
     margin-bottom: 8px;
 }
 
-.section-body .container .card-content .tags, .section-body .container .tags{
+.section-body .container .card-content .tags{
     display: flex;
     justify-content: center;
     margin-bottom: 2px;
 }
 
-.section-body .container .card-content .tags .tag, .section-body .container .tags .tag{
+.section-body .container .card-content .tags{
     color: #fff;
 }
 
-.tag.tag-html{
-    background-color: #e34f26;
-}
-
-.tag.tag-css{
-    background-color: #008FD8;
-}
-
-.tag.tag-js{
-    background-color: #F0E03F;
-}
-
-.tag.tag-sass{
-    background-color: #DE4C98;
-}
-
-.tag.tag-jquery{
-    background-color: #0065B0;
-}
-
-.tag.tag-bootstrap{
-    background-color: #5D317D;
-}
-
-.tag.tag-foundation{
-    background-color: #00aaca;
-}
-
-.tag.tag-java{
-    background-color: #FC0002;
-}
-
-.tag.tag-mysql{
-    background-color: #FF9D00;
-}
-
-.tag.tag-git{
-    background-color: #FF270C;
-}
 
 /** ABOUT **/
 
@@ -187,8 +148,14 @@ section{
     margin-top: 5px;
 }
 .section-body .container .tags{
+    display: flex;
+    justify-content: space-around;
     margin-top: 16px;
     margin-bottom: 0;
+} 
+
+.section-body .container .tags i{
+    font-size: 3rem;
 } 
 
 .section-body .container .experience-date, .section-body .container .education-date{
