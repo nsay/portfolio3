@@ -136,8 +136,9 @@ section{
     margin-bottom: 2px;
 }
 
-.section-body .container .card-content .tags{
+.section-body .container .card-content .tags .tag{
     color: #fff;
+    background: #0596DE;
 }
 
 
