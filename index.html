@@ -1,60 +1,465 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
+  <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Narith Say's Portfolio. A web developer based in Boston, Massachusetts.">
-    <title>Narith Say - Portfolio</title>
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    
-</head>
+    <meta name="author" content="Narith Say">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-<body>
-    <header class="hero is-fullheight">
-        <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-top">
-                        <a href="index.html" class="navbar-item icon-active">
-                            <i class="fas fa-home">home</i>Home
-                        </a>
-                        <a href="content/projects.html" class="navbar-item icon-inactive">
-                            <i class="fas fa-desktop"></i>Projects
-                        </a>
-                        <a href="content/about.html" class="navbar-item icon-inactive">
-                            <i class="far fa-user icon-inactive"></i>About
-                        </a>
-                        <a href="content/contact.html" class="navbar-item icon-inactive">
-                            <i class="far fa-envelope"></i>Contact
-                        </a>
-                    </div>
+    <title>Narith Say - Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <!-- Custom styles-->
+    <link href="css/resume.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!--NAVBAR LOGO -->
+        <ul class="navbar-nav navbar-logo">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#"><img src="img/logo1.png" alt="logo"></a>
+          </li>
+        </ul>
+
+        <!--NAVBAR LINKS -->
+        <ul class="navbar-nav navbar-links">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+        </ul>
+
+        <!-- NAVBAR SOCIAL -->
+        <ul class="navbar-nav navbar-social">
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/narithsay/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/nsay" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <!-- ABOUT SECTION -->
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0"><span class="text-primary">Hi,<br>I'm</span> Narith Say<span class="text-primary">,<br>Web Developer.</span>
+          </h1>
+          <div class="subheading mb-5">Boston, MA
+            <a href="mailto:name@email.com">narithsay@gmail.com</a>
+          </div>
+          <p class="mb-5"> I am a web developer with experience in web and graphic design but I am currently dwelling deeper into web development. At the moment, I am focusing my area on the Front-End, but once I get familar with it, I'm planning to learn more about the Back-End. Currently, I am learning more about JavaScript frameworks such as React. <br>Outside of development, I enjoy playing tennis and video games.</p>
+          <p class="mb-5">
+            <a href="assets/nsay-resume.pdf" target="_blank">
+              <button type="button" class="btn btn-outline-dark">
+                Resume
+              </button>
+            </a>
+          </p>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-css3-plain-wordmark colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-javascript-plain colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-sass-plain colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-jquery-plain-wordmark colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-bootstrap-plain-wordmark colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-foundation-plain-wordmark colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-java-plain-wordmark colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-mysql-plain-wordmark colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-git-plain-wordmark colored"></i>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <!-- DICE GAME -->
+          <div class="row">
+            <div class="col-lg-6 col-xl-4 text-center mt-3">
+              <div class="hovereffect">
+                <img src="img/projects/dicegame.png" class="rounded img-fluid" alt="Dice Game project image">
+                <div class="overlay">
+                  <h2>
+                    Dice Game
+                  </h2>      
+                  <p>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <br>
+                    <a href="http://narithsay.com/DiceGame/" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: left; margin-top: 10px;">
+                        Demo
+                      </button>
+                    </a>
+                    <a href="https://github.com/nsay/DiceGame" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: right; margin-top: 10px;">
+                        Github
+                      </button>
+                    </a>
+                  </p>
                 </div>
-            </nav>
-        </div>
-        
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <p class="title">
-                    Narith Say
-                </p>
-                <p class="subtitle">
-                    Web Developer
-                </p>
-                <a href="assets/resume.pdf" class="button is-primary is-outlined" target="_blank">View Resume</a>
+              </div>
             </div>
+
+            <!-- COLOR GAME -->
+            <div class="col-lg-6 col-xl-4 text-center mt-3">
+              <div class="hovereffect">
+                <img src="img/projects/rgbcolorgame.png" class="rounded img-fluid" alt="RGB Color Game project image">
+                <div class="overlay">
+                  <h2>
+                    RGB Color Game
+                  </h2>
+                  <p>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <br>
+                    <a href="http://narithsay.com/RGBColorGame/" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: left; margin-top: 10px;">
+                        Demo
+                      </button>
+                    </a>
+                    <a href="https://github.com/nsay/RGBColorGame" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: right; margin-top: 10px;">
+                        Github
+                      </button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SOCIAL LAB -->
+            <div class="col-lg-6 col-xl-4 text-center mt-3">
+              <div class="hovereffect">
+                <img src="img/projects/sociallab.png" class="rounded img-fluid" alt="Social Lab project image">
+                <div class="overlay">
+                  <h2>
+                    Social Lab
+                  </h2>
+                  <p>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <br>
+                    <a href="http://narithsay.com/SocialLab/" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: left; margin-top: 10px;">
+                        Demo
+                      </button>
+                    </a>
+                    <a href="https://github.com/nsay/SocialLab" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: right; margin-top: 10px;">
+                        Github
+                      </button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- MIZTEK -->
+            <div class="col-lg-6 col-xl-4 text-center mt-3">
+              <div class="hovereffect">
+                <img src="img/projects/miztek.png" class="rounded img-fluid" alt="Miztek project image">
+                <div class="overlay">
+                  <h2>
+                    Miztek
+                  </h2>
+                  <p>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <br>
+                    <a href="http://narithsay.com/Miztek/" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: left; margin-top: 10px;">
+                        Demo
+                      </button>
+                    </a>
+                    <a href="https://github.com/nsay/Miztek" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: right; margin-top: 10px;">
+                        Github
+                      </button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Back Blog -->
+            <div class="col-lg-6 col-xl-4 text-center mt-3">
+              <div class="hovereffect">
+                <img src="img/projects/backblog.png" class="rounded img-fluid" alt="Back Blog project image">
+                <div class="overlay">
+                  <h2>
+                    Back Blog
+                  </h2>
+                  <p>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <br>
+                    <a href="http://narithsay.com/BackBlog/" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: left; margin-top: 10px;">
+                        Demo
+                      </button>
+                    </a>
+                    <a href="https://github.com/nsay/BackBlog" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: right; margin-top: 10px;">
+                        Github
+                      </button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Donut Shoppe -->
+            <div class="col-lg-6 col-xl-4 text-center mt-3">
+              <div class="hovereffect">
+                <img src="img/projects/donutshoppe.png" class="rounded img-fluid" alt="Donut Shoppe project image">
+                <div class="overlay">
+                  <h2>
+                     Donut Shoppe
+                  </h2>
+                  <p>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <br>
+                    <a href="http://narithsay.com/DonutShoppe/" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: left; margin-top: 10px;">
+                        Demo
+                      </button>
+                    </a>
+                    <a href="https://github.com/nsay/DonutShoppe" target="_blank">
+                      <button type="button" class="btn btn-outline-dark" style="float: right; margin-top: 10px;">
+                        Github
+                      </button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Past Portfolios -->
+            <div class="col-lg-6 col-xl-4 text-center mt-3">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="hovereffect">
+                      <img class="d-block" src="img/projects/portfolio2.png" alt="Second portfolio image">
+                      <div class="overlay">
+                        <h2>
+                          Past Portfolios
+                        </h2>
+                        <p>
+                          <i class="devicon-html5-plain-wordmark colored"></i>
+                          <i class="devicon-css3-plain-wordmark colored"></i>
+                          <i class="devicon-javascript-plain colored"></i>
+                          <br>
+                          <a href="http://narithsay.com/portfolio2/" target="_blank">
+                            <button type="button" class="btn btn-outline-dark" style="float: left; margin-top: 10px;">
+                              Demo
+                            </button>
+                          </a>
+                          <a href="https://github.com/nsay/portfolio2" target="_blank">
+                            <button type="button" class="btn btn-outline-dark" style="float: right; margin-top: 10px;">
+                              Github
+                            </button>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="hovereffect">
+                      <img class="d-block" src="img/projects/portfolio1.png" alt="First portfolio image">
+                      <div class="overlay">
+                        <h2>
+                          Past Portfolios
+                        </h2>
+                        <p>
+                          <i class="devicon-html5-plain-wordmark colored"></i>
+                          <i class="devicon-css3-plain-wordmark colored"></i>
+                          <i class="devicon-javascript-plain colored"></i>
+                          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                          <br>
+                          <a href="http://narithsay.com/portfolio1/" target="_blank">
+                            <button type="button" class="btn btn-outline-dark" style="float: left; margin-top: 10px;">
+                              Demo
+                            </button>
+                          </a>
+                          <a href="https://github.com/nsay/portfolio1" target="_blank">
+                            <button type="button" class="btn btn-outline-dark" style="float: right; margin-top: 10px;">
+                              Github
+                            </button>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>  
         </div>
-    </header>
-    
-    <section id="mountain" class="hero is-fullheight"></section>
-    <section id="firefly" class="hero is-fullheight"></section>
-    <section id="star-mountain" class="hero is-fullheight"></section>
-    <script src="js/firefly.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
-</body>
+
+      </section>
+
+      <!-- EXPERIENCE SECTION -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+      
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">United States Biological</h3>
+              <div class="subheading mb-3">Front-End Web Developer</div>
+              <p>
+                <ul>
+                  <li>
+                    Design and develop company web pages using HTML, CSS and Foundation framework.
+                  </li>
+                  <li>
+                    Use Adobe Photoshop, Illustrator, and InDesign applications to create wire-frames, visual designs, graphics, logos and branding
+                    material.
+                  </li>
+                  <li>
+                    Produce and market HTML emails and campaigns to various companies.
+                  </li>
+                  <li>
+                    Convert any image or PSD files into HTML/CSS.
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Jan. 2016 - Present</span>
+            </div>
+          </div>
+      
+        </div>
+      
+      </section>
+
+      <!-- EDUCATION SECTION -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Massachusetts - Lowell</h3>
+              <div class="subheading mb-3">Bachelor of Science in Information Technology</div>
+              <div>Magna Cum Laude - GPA: 3.82</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sept. 2015 – Dec. 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Massachusetts - Lowell</h3>
+              <div class="subheading mb-3">Certificate in Java Development</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sept. 2015 – Dec. 2017</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.js"></script>
+
+  </body>
 
 </html>
