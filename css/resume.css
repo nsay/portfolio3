@@ -106,7 +106,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 #projects .hovereffect img {
-  display: block;
+  display: inline;
   position: relative;
   max-width: none;
   width: calc(100% + 20px);
